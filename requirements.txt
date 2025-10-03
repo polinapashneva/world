@@ -1,0 +1,13 @@
+blinker
+certifi
+Flask
+Flask-Login
+Flask-WTF
+Jinja2
+Pillow
+requests
+schedule
+SQLAlchemy
+Werkzeug
+WTForms
+urllib3==1.26.6
