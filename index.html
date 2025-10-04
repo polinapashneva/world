@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
-{% extends "/base.html" %} {% block content %}
+
   <link rel="import" href="base.html">
 <h2>Здравствуй, дорогой читатель!</h2>
 <p>Добро пожаловать в уголок мистики и тайн!</p>
@@ -18,8 +18,5 @@
   <li><a href="fantom" style="color: black">Призраки</a></li>
   <li><a href="face" style="color: black">Личности</a></li>
   <li><a href="dr" style="color: black">Другие вселенные</a></li>
-  {% if current_user.is_authenticated %}
-  <li><a href="/templates/promo" style="color: black">Промокоды</a></li>
-  {% endif %}
 </ul>
-{% endblock %}
+
